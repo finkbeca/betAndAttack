@@ -85,7 +85,7 @@ contract BetAndAttack is usingProvable {
         } else {
            emit LogNewProvableQuery("Provable query was sent, standing by for the answer..");
            provable_query("URL", "json(https://api.uptimerobot.com/v2/getMonitors).monitor[0].average_response_time", 
-             '{"data":"api_key=m794019296-c65efbab064db4b4485e16b1&format=json&logs=1&response_times=1&logs_start_date=1648867200&logs_end_date=1648953600", "method":"POST"}');
+             '{"data":"api_key=m794019296-ADD_APIKEY_HERE&format=json&logs=1&response_times=1&logs_start_date=1648867200&logs_end_date=1648953600", "method":"POST"}');
         }
         
     }
